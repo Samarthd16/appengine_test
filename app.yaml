@@ -1,6 +1,6 @@
 runtime: python38 
 api_version: 1 
-threadsafe: true 
+#threadsafe: true 
 entrypoint: gunicorn -b :$PORT main:app 
 # handlers: 
 # - url: /.* 
